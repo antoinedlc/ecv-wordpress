@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<?php include("parts/slider.php"); ?>
+
 <h1> <u>Les derniers articles</u> </h1>
 <ul>
     <?php
