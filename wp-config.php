@@ -22,7 +22,7 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define( 'DB_NAME', 'ecv-wordpress.local' );
+define( 'DB_NAME', 'ecv-wordpress' );
 
 /** Utilisateur de la base de données MySQL. */
 define( 'DB_USER', 'root' );
@@ -96,3 +96,7 @@ if ( ! defined( 'ABSPATH' ) )
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once( ABSPATH . 'wp-settings.php' );
+
+
+/* Eviter d'utiliser les accès ftp*/
+define('FS_METHOD', 'direct');
