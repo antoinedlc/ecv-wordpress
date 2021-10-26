@@ -1,5 +1,3 @@
-<?php get_header(); ?>
-
-<?php include("parts/slider.php"); ?>
+<?php wp_head(); ?>
 
 <?php get_footer(); ?>
