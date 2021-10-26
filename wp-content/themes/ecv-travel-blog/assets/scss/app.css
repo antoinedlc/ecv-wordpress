@@ -35,6 +35,7 @@ header.header {
     -ms-flex-pack: center;
     justify-content: space-around;
     z-index: 10000;
+    color: white !important;
 }
 
 img.logo-menu {
@@ -188,4 +189,101 @@ Version: 1.0
 .contentSlider h1 {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+Theme Name: ECV Travel Blog
+Theme URI: http://127.0.0.1/wordpress/
+Author: Antoine Delcourte
+Description: Thème sur-mesure pour le workshop WordPress
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+.footerTop{
+    left: 0px;
+    height: 440px;
+    background: #E84122 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerTop p{
+    width: 700px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: white;
+    text-align: center;
+    font: normal normal normal 30px/44px Playfair Display;
+}
+
+.footerTop #inputMail{
+    width: 450px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.footerBottom {
+    height: 300px;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#buttonMail{
+    background: black;
+    color: white;
+    width: 150px;
+    height: 68px;
+}
+
+.footerBottom ul{
+    list-style-type: none;
+}
+
+.footerBottom li{
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+.footerBottom p{
+    position: absolute;
+    right: 150px;
+}
+
+/*
+Theme Name: workshop
+*/
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
+
+.img_article img{
+  width: 150px;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
+
+.img_article img{
+  width: 150px;
 }
