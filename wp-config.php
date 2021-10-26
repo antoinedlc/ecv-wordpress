@@ -1,4 +1,4 @@
-<?php
+<?php iejzfihjzeifjzijef
 /**
  * La configuration de base de votre installation WordPress.
  *
