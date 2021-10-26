@@ -8,9 +8,11 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
-			<p>Hello</p>
-
+	
+		<?php
+			include("parts/bons-plans.php");
+		?>
+		
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
