@@ -9,3 +9,16 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+    <header class="header">
+        <a href="<?php echo home_url('/'); ?>" class="link-logo-menu">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="" class="logo-menu">
+        </a>
+
+        <?php
+        wp_nav_menu(array(
+            'theme_location' => 'Custom Menu',
+            'container_class' => 'custom-menu-class'
+        ));
+        ?>
+    </header>
