@@ -4,6 +4,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="<?=get_template_directory_uri(); ?>/assets/scss/app.css">
 
     <?php wp_head(); ?>
 </head>
@@ -16,9 +17,9 @@
         </a>
 
         <?php
-        wp_nav_menu(array(
-            'theme_location' => 'Custom Menu',
-            'container_class' => 'custom-menu-class'
-        ));
+            wp_nav_menu(array(
+                'theme_location'    => 'Custom Menu',
+                'menu_class'        => 'custom-menu-class'
+            ));
         ?>
     </header>
