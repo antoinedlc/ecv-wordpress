@@ -1,8 +1,16 @@
 /*
-Theme Name: ECV Travel Blog
-Theme URI: http://localhost/wordpress/
-Author: Antoine Delcourte
-Description: Thème sur-mesure pour le workshop WordPress
-Requires at least: WordPress 5.0
-Version: 1.0
+Theme Name: workshop
 */
+
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
+
+.img_article img{
+  width: 150px;
+}
